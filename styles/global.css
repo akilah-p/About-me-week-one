@@ -95,7 +95,7 @@ p {color:hotpink;
 ul { color: white;
     font-size: 25px;
     font-style: normal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align:center;
     list-style-type:square;
     list-style-position: inside;
@@ -114,6 +114,11 @@ ul { color: white;
 
 
 span {color: darkred;
+
+}
+ul .room {width: 15%;
+    height: 15%;
+    align-content: right;
 
 }
 
