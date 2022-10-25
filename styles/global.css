@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    list-style: disc;
 }
 
 header {
@@ -33,3 +34,20 @@ header .logo {
 main {
     padding: 20px;
 }
+main .BB {display: flex;
+    align-items: center;
+    size-adjust: 20em;
+    
+
+}
+h1 {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    align-content: center;
+    font-weight:bold;
+    color:blue
+
+}
+
+
+
+
