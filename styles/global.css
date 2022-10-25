@@ -1,50 +1,119 @@
 :root {
-    --background: rgb(224, 234, 247);
-    --header-background: rgb(254, 251, 245);
+    --header-background: rgb(243,196,207);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
+    
+    
+        
+
 }
 
 body {
     font-family: var(--primary-font);
-    background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
-    list-style: disc;
+    background-image: url("/assets/uvst.png");
+    background-repeat:repeat; 
+    background-size:auto;
+    background-blend-mode: lighten;
+    
+
 }
 
 header {
-    position: sticky;
-    top: 0;
+    position:relative;
+    
     padding: 15px;
-    height: 80px;
+    height: 100px;
 
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
     background-color: var(--header-background);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-blend-mode: overlay;
+    opacity:0.5;
 }
 
 header .logo {
-    height: 100%;
+    height: 75px;
+    width: 25%;
+    padding: 10px;
+    image-rendering:auto;
+    position:absolute;
+    top:8px;
+    left: 16px;
+
 }
+
+footer {
+    position:absolute;
+    left:0;
+    right:40%;
+    width:100%;
+    color:white;
+    text-shadow: black;
+    font-weight: bold;
+text-align: center; }
+
 
 main {
     padding: 20px;
 }
-main .BB {display: flex;
-    align-items: center;
-    size-adjust: 20em;
+
+img {
+    border-radius: 45px;
+    padding:20px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    background-blend-mode: luminosity;
+
+
+}
+h2 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    background-clip: text;
+    text-shadow: 2px 2px 5px black;
+   
     
 
 }
-h1 {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: larger;
-    align-content: center;
+p {color:hotpink;
+    font-size: 40px;
+    font-style: italic;
+    text-align:center;
+    font-weight:bolder;
+    text-shadow: 2px 2px 5px black;
+
+}
+ul { color: white;
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    list-style-type:square;
+    list-style-position: inside;
+    align-items:center;
+    margin: 5px;
     font-weight:bold;
-    color:blue
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 1px;
+    
+    
+    
+    
+}
+
+
+
+
+span {color: darkred;
 
 }
 
